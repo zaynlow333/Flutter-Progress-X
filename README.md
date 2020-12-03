@@ -1,13 +1,23 @@
-# Welcome page, Login Page and Sign up page - Flutter UI
+# Flutter & Firebase Course | Code With Andrea
 
-## [Watch it on YouTube](https://youtu.be/ExKYjqgswJg)
+This repo contains the source code for my [Flutter & Firebase Course](https://nnbd.me/ff) on Udemy.
 
-**Packages we are using:**
+## Running the project with Firebase
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
+To use this project with Firebase, some configuration steps are required.
 
-We design 3 screens first one is a welcome screen like then user open your app it shows then users have two options, if he has an account then press the login button and it just shifts him to the login screen or if he or she don't have an account then press signup button its transfers to the signup screen.
+- Create a new project with the Firebase console.
+- Add iOS and Android apps in the Firebase project settings.
+- On Android, use `com.codingwithflutter.time_tracker_flutter_course` as the package name.
+- then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_android_app) `google-services.json` into `android/app`.
+- On iOS, use `com.codingwithflutter.timeTrackerFlutterCourse` as the bundle ID.
+- then, [download and copy](https://firebase.google.com/docs/flutter/setup#configure_an_ios_app) `GoogleService-Info.plist` into `iOS/Runner`, and add it to the Runner target in Xcode.
 
-### Auth UI
+See this page for full instructions:
 
-![App UI](/UI.png)
+- [FlutterFire Overview](https://firebase.flutter.dev/docs/overview) 
+
+The setup steps are also explained in the course.
+
+### [License: MIT](LICENSE.md)
+
